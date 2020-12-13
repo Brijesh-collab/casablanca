@@ -25,6 +25,7 @@
     <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" type="text/css" href="fontawesome-free-5.14.0-web/css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/event.css">
 
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
  
@@ -154,7 +155,7 @@
     <section class="ftco-section bg-light">
       <div class="container">
         <div class="row d-flex">
-          <div class="col-md-4 d-flex ftco-animate">
+          <div id="mrg" class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a class="block-20 rounded" style="background-image: url('./images/img/wedding.jfif');">
               </a>
@@ -165,10 +166,14 @@
                   <div><a href="#">Admin</a></div>
                   <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                 </div> -->
-                <p>Surrounded by lush greenery, Casablanca warmly eases out your engagement and wedding jitters, with its calm and comfortable environment. The resort has a rooftop for pre-wedding bash. We have a spectacular lawn, a pool side area followed by an opulent gazebo for all your wedding and post-wedding functions.<br><br><a style="margin-top: 10px;" href="index.html#inquire" class="btn btn-primary">Inquire</a></p>
+                <p>Surrounded by lush greenery, Casablanca warmly eases out your engagement and wedding jitters, with its calm and comfortable environment. The resort has a rooftop for pre-wedding bash. We have a spectacular lawn, a pool side area followed by an opulent gazebo for all your wedding and post-wedding functions.<br><br><a style="margin-top: 10px;" href="index.html#inquire" class="btn btn-primary">Inquire</a><a style="margin-top: 10px;margin-left: 10px; color: white;" class="btn btn-primary myBtn" onclick="openModal();currentSlide(1)">Photos</a></p>
               </div>
+
             </div>
           </div>
+
+          
+          
           <div class="col-md-4 d-flex ftco-animate">
             <div class="blog-entry align-self-stretch">
               <a class="block-20 rounded" style="background-image: url('./images/img/events.jfif');">
@@ -181,7 +186,9 @@
                   <div><a href="#" class="meta-chat"><span class="fa fa-comment"></span> 3</a></div>
                 </div> -->
                 <p>We offer poolside birthday and kitty parties for all age groups. Schedule your party with us and let our experts do all the work;from organization to setup and cleanup.Just sit back and enjoy the fun vibes with drinks, dance, games and music. To capture the unforgettable moments of the day, explore our various picture perfect spots along with our professional photographer.<br><a style="margin-top: 10px;" href="index.html#name" class="btn btn-primary">Inquire</a></p>
+
               </div>
+
             </div>
           </div>
           <div class="col-md-4 d-flex ftco-animate">
@@ -262,7 +269,104 @@
           </div>
         </div>
       </div> -->
-    </section>
+
+</section>
+<!-- <div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  
+     <p>hello</p>
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 4</div>
+      <img src="1.jpeg" style="width:70%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 4</div>
+      <img src="img_snow_wide.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 4</div>
+      <img src="img_mountains_wide.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 4</div>
+      <img src="img_lights_wide.jpg" style="width:100%">
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+
+   
+ 
+</div> -->
+<div id="myModal" class="modal">
+  <span class="close cursor" style="color: white; opacity: 1;" onclick="closeModal()">&times;</span>
+  <!-- <div class="modal-content"> -->
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+      <img id="mrgimg" src="images/mrg/j.png" style="width:100%;">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 9</div>
+      <img id="mrgimg" src="images/mrg/i.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+      <img id="mrgimg" src="images/mrg/c.png" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+      <img id="mrgimg" src="images/mrg/b.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+      <img id="mrgimg" src="images/mrg/h.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+      <img id="mrgimg" src="images/mrg/d.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+      <img id="mrgimg" src="images/mrg/e.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+      <img id="mrgimg" src="images/mrg/f.png" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 9</div>
+      <img id="mrgimg" src="images/mrg/g.png" style="width:100%">
+    </div>
+    
+    <a class="prev" style="color: white;" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" style="color: white;" onclick="plusSlides(1)">&#10095;</a>
+
+ <!--    <div class="caption-container">
+      <p id="caption"></p>
+    </div> -->
+
+
+   
+  <!-- </div> -->
+</div>
 		
     <footer class="mainfooter" role="contentinfo">
       <div class="footer-middle">
@@ -331,6 +435,58 @@
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
   <script src="js/google-map.js"></script>
   <script src="js/main.js"></script>
+  <script type="text/javascript">
+    /*$(document).on('click','.myBtn',function(){
+  var myTargetModal = '#' + $(this).data('bid');
+  $('#myModal').hide();
+  $('.modal-content').hide();
+  
+  $('#myModal').fadeIn();
+  $(myTargetModal).fadeIn();
+});
+
+$("body" ).on( "click",".close", function() {
+    $('#myModal').hide();
+  $('.modal-content').hide();
+}); */
+function openModal() {
+  document.getElementById("myModal").style.display = "block";
+}
+
+function closeModal() {
+  document.getElementById("myModal").style.display = "none";
+}
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+
+  </script>
 
 
     
